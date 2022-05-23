@@ -1,0 +1,296 @@
+.cityLogo {
+    width: 45px;
+    height: 57px;
+    margin: 5px;
+}
+
+.para {
+    font-size: 8px;
+    color: gray;
+    text-align: left;
+}
+
+.cityTour {
+    display: flex;
+    width: 48%;
+    border: 1px solid #edeaea;
+    height: 69px;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+}
+
+.tourHeading {
+    text-align: left;
+    margin-top: 5px;
+    font-weight: bold
+}
+
+@media only screen and (max-width: 425px) {
+    .cityTour {
+        width: 96%;
+        height: 17vh;
+    }
+
+    .cityLogo {
+        width: 24%;
+        height: 94px;
+    }
+
+    .para {
+        width: 100%;
+        font-size: 11px;
+        font-weight: bold;
+        
+    }
+
+    
+}
+
+/* width="131px"
+        style="max-width: 131px;" */
+.imgLogo {
+    width: 60px;
+    max-width: 131px;
+    height: 17px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.signupbtn {
+    background: #089ad5;
+    border: 1px;
+    border-radius: 3px;
+    color: white;
+    width: 61px;
+    height: 26px;
+}
+
+.hrline {
+    color: white;
+}
+
+.mainCityComponent {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: f;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+}
+
+.touristHeading {
+    width: 95%;
+
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.abcd {
+    background-color: #fdfdfd;
+}
+
+@media only screen and (max-width: 425px) {}
+
+.middleComponent {
+    background-color: #fdfdfd;
+}
+
+.middlePart {
+    margin: auto;
+    width: 95%;
+    border: 1px solid #edeaea;
+    height: 100%;
+    border-radius: 5px;
+    background: white;
+}
+
+.calender {
+    width: 70%;
+    border: 1px solid #edeaea;
+    
+    border-radius: 5px;
+    background: white;
+    margin-left: 13px;
+    margin: auto;
+}
+.zyx{
+    width: 90%;
+    border: 1px solid #edeaea;
+    
+    border-radius: 5px;
+    background: white;
+    margin-left: 13px;
+    margin: auto;
+}
+.startingTime {
+    margin-top: 20px;
+    margin-left: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.availableTime {
+    margin-top:10px;
+    margin-left: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.totalCompoPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    /* width: -1px; */
+    flex-wrap: wrap;
+    display: flex;
+    /* fle: 50px 50px 50px 50px; */
+    /* background-color: #2196F3; */
+    padding: 10px;
+    /* grid-template-rows: 50px 50px 50px 50px; */
+    column-gap: 15px;
+    row-gap: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(215 206 206 / 80%);
+    /*  padding: 20px;  */
+    font-size: 13px;
+    text-align: center;
+    border-radius: 6px;
+    height: 24px;
+    width: 100%;
+}
+
+.grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(215 206 206 / 80%);
+    /* / padding: 0px; / */
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    height: 24px;
+    width: 58px;
+}
+
+.grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(215 206 206 / 80%);
+    /* / padding: 0px; / */
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    height: 24px;
+    width: 55px;
+    background-color: #0a84b7;
+    color: white;
+    text-align: center;
+}
+
+.grid-item3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(215 206 206 / 80%);
+    /* / padding: 0px; / */
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    height: 24px;
+    width: 55px;
+    background-color: #dff1f9;
+    color: black;
+    text-align: center;
+}
+
+.pickupAddress {
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 16px;
+    
+}
+
+.inputField {
+    width: 95%;
+    margin: auto;
+    border: 1px solid #dbd1d1;
+    border-radius: 4px;
+    height: 39px;
+}
+
+.underlineInputField {
+    width: 100%;
+    margin-left: 14px;
+    font-size: 13px;
+    font-weight: 00;
+    color: #a19e9e;
+}
+
+.mobilePhone {
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-bottom: 4px;
+}
+
+.inputField1 {
+    width: 95%;
+    margin: auto;
+    border: 1px solid #dbd1d1;
+    border-radius: 4px;
+    height: 39px;
+}
+
+
+
+.mobilePhone1 {
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-bottom: 4px;
+
+}
+
+.inputfield12 {
+    width: 95%;
+    margin: auto;
+    border: 1px solid #dbd1d1;
+    border-radius: 4px;
+    height: 39px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    border: 1px solid white;
+    
+    margin: auto;
+    border-radius: 3px;
+    
+    background-color: white;
+}
+
+.saveBtn {
+    padding: 29px;
+    text-align: right;
+    margin: auto;
+    
+    border: 1px solid #dddbdb;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #f3ab26;
+    color: white;
+    border: 1px white;
+    border-radius: 4px;
+    height: 29px;
+}
