@@ -12,7 +12,6 @@
 
 .cityTour {
     display: flex;
-    width: 48%;
     border: 1px solid #edeaea;
     height: 69px;
     border-radius: 5px;
@@ -84,11 +83,11 @@
 }
 
 .touristHeading {
-    width: 95%;
-
+    display: flex;
     margin: auto;
     font-weight: bold;
     margin-bottom: 10px;
+    width: 400px;
 }
 
 .abcd {
@@ -111,7 +110,7 @@
 }
 
 .calender {
-    width: 70%;
+    
     border: 1px solid #edeaea;
     
     border-radius: 5px;
@@ -120,9 +119,7 @@
     margin: auto;
 }
 .zyx{
-    width: 90%;
-    border: 1px solid #edeaea;
-    
+    width: 96%;
     border-radius: 5px;
     background: white;
     margin-left: 13px;
@@ -131,17 +128,16 @@
 .startingTime {
     margin-top: 20px;
     margin-left: 13px;
+    margin-bottom:15px ;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    
 }
 
 .availableTime {
-    margin-top:10px;
+    
     margin-left: 13px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    
 }
 
 .totalCompoPart {
@@ -219,12 +215,13 @@
     
 }
 
-.inputField {
-    width: 95%;
-    margin: auto;
+input {
+    width: 94%;
+    margin-left: 10px;
     border: 1px solid #dbd1d1;
     border-radius: 4px;
     height: 39px;
+
 }
 
 .underlineInputField {
@@ -242,13 +239,7 @@
     margin-bottom: 4px;
 }
 
-.inputField1 {
-    width: 95%;
-    margin: auto;
-    border: 1px solid #dbd1d1;
-    border-radius: 4px;
-    height: 39px;
-}
+
 
 
 
@@ -260,14 +251,7 @@
 
 }
 
-.inputfield12 {
-    width: 95%;
-    margin: auto;
-    border: 1px solid #dbd1d1;
-    border-radius: 4px;
-    height: 39px;
-    margin-bottom: 20px;
-}
+
 
 .footer {
     border: 1px solid white;
@@ -294,3 +278,47 @@
     border-radius: 4px;
     height: 29px;
 }
+.cityLogo{
+    border-radius: 10px;
+}
+
+
+@media screen  and (min-width:570px){
+    .combined{
+        display: flex;
+        justify-content: center;
+    }
+    .foots{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    
+    
+    .mobilePhone1{
+        margin-left: 0;
+    }
+    .f
+    .input{
+        width: 100%;
+    }
+}
+@media screen and (min-width:450px){
+    .cityTour{
+        margin: auto;
+        width: 95%;
+        border: 1px solid #edeaea;
+        height: 100%;
+        border-radius: 5px;
+        background: white;
+}.touristHeading{
+    margin-left: 3%;
+}
+    
+}
+/* @media screen and  (min-width:350px) and (max-width:560px){
+    .zyx{
+        width: 66%;
+    }
+} */
