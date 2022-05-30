@@ -23,6 +23,18 @@
     margin-top: 5px;
     font-weight: bold
 }
+.icon{
+    float:right;
+}
+.signupbtn{
+    display: none;
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 425px) {
     .cityTour {
@@ -39,10 +51,11 @@
         width: 100%;
         font-size: 11px;
         font-weight: bold;
-        
-    }
 
+    }
     
+
+
 }
 
 /* width="131px"
@@ -59,14 +72,7 @@
     margin: 10px;
 }
 
-.signupbtn {
-    background: #089ad5;
-    border: 1px;
-    border-radius: 3px;
-    color: white;
-    width: 61px;
-    height: 26px;
-}
+
 
 .hrline {
     color: white;
@@ -83,11 +89,8 @@
 }
 
 .touristHeading {
-    display: flex;
-    margin: auto;
-    font-weight: bold;
-    margin-bottom: 10px;
-    width: 400px;
+    
+    margin-left: 10px;
 }
 
 .abcd {
@@ -102,7 +105,7 @@
 
 .middlePart {
     margin: auto;
-    width: 95%;
+    width: 96%;
     border: 1px solid #edeaea;
     height: 100%;
     border-radius: 5px;
@@ -110,34 +113,36 @@
 }
 
 .calender {
-    
-    border: 1px solid #edeaea;
-    
+    width: 100%;
+
+
     border-radius: 5px;
     background: white;
     margin-left: 13px;
     margin: auto;
 }
-.zyx{
+
+.zyx {
     width: 96%;
     border-radius: 5px;
     background: white;
     margin-left: 13px;
     margin: auto;
 }
+
 .startingTime {
     margin-top: 20px;
     margin-left: 13px;
-    margin-bottom:15px ;
+    margin-bottom: 15px;
     font-weight: bold;
-    
+
 }
 
 .availableTime {
-    
-    margin-left: 13px;
+
+    margin-left: 21px;
     font-weight: bold;
-    
+
 }
 
 .totalCompoPart {
@@ -212,7 +217,7 @@
     margin-top: 25px;
     font-weight: bold;
     margin-left: 16px;
-    
+
 }
 
 input {
@@ -255,10 +260,10 @@ input {
 
 .footer {
     border: 1px solid white;
-    
+
     margin: auto;
     border-radius: 3px;
-    
+
     background-color: white;
 }
 
@@ -266,7 +271,7 @@ input {
     padding: 29px;
     text-align: right;
     margin: auto;
-    
+
     border: 1px solid #dddbdb;
     border-radius: 4px;
 }
@@ -278,47 +283,73 @@ input {
     border-radius: 4px;
     height: 29px;
 }
-.cityLogo{
+
+.cityLogo {
     border-radius: 10px;
 }
 
 
-@media screen  and (min-width:570px){
-    .combined{
+
+@media screen and (min-width:790px) {
+    .combined {
         display: flex;
         justify-content: center;
     }
-    .foots{
+
+    .foots {
         display: flex;
         width: 100%;
         justify-content: center;
     }
+
+    .signupbtn {
+        display: block;
+        background: #089ad5;
+        border: 1px;
+        border-radius: 3px;
+        color: white;
+        width: 61px;
+        height: 26px;
+    }
+    .bar{
+        display: none;
+    }
+    .signupbtn1{
+        display: none;
     
+    }
+   
     
-    
-    .mobilePhone1{
+
+
+    .mobilePhone1 {
+
         margin-left: 0;
     }
-    .f
-    .input{
+
+    .f .input {
         width: 100%;
     }
 }
-@media screen and (min-width:450px){
-    .cityTour{
+
+@media screen and (min-width:450px) {
+    .cityTour {
         margin: auto;
-        width: 95%;
+        width: 65%;
         border: 1px solid #edeaea;
         height: 100%;
         border-radius: 5px;
         background: white;
-}.touristHeading{
-    margin-left: 3%;
-}
-    
-}
-/* @media screen and  (min-width:350px) and (max-width:560px){
-    .zyx{
-        width: 66%;
     }
-} */
+
+    .touristHeading {
+        margin-left: 18%;
+    }
+
+    .middlePart {
+        width: 65%;
+    }
+
+}
+
+@media screen and (min-width:854px) {}

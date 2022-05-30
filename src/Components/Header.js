@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Citytour from "./Citytour";
 import "./index.css";
 
-const header = () => {
+const Header = () => {
+  const [open, Setopen] = useState(false)
+  const myFunction = () => {
+    Setopen(!open)
+    
+  }
+  
+
+
+
+
   return (
     <div>
       <div className="header">
@@ -11,8 +21,26 @@ const header = () => {
           alt="logo"
           className="imgLogo"
         />
+        <div className="topnav" id="myTopnav">
+          <a  className="icon">
+            <i
+              className="fa fa-bars bar"
+              style={{ "marginTop": "5px" }}
+              onClick={myFunction}
+            ></i>
+          </a>
+
+          {open && (
+            <div>
+              <button className="signupbtn1">Sign Up</button>
+            </div>
+          )}
+        </div>
+
         <button className="signupbtn">Sign Up</button>
-        
+
+
+
       </div>
 
       <div className="abcd">
@@ -26,4 +54,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
